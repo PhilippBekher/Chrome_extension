@@ -143,7 +143,7 @@ for (var i = 0; i < res.records.length; i++){
    <td>${res.records[i].fields.Name}</td>
    <td class="row-data">${res.records[i].fields.JSON}</td>
    <td>${res.records[i].fields.Type}</td>
-   <td><button onclick="show()"  id="copy_button" class="btn btn-primary copy_button">Copy</button></td>
+   <td><button  id="copy_button" class="btn btn-primary copy_button">Copy</button></td>
  </tr>`
 
  HTMLtext = HTMLtext + tr
