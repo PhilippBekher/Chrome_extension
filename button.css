@@ -1,0 +1,28 @@
+button {
+    height: 50px;
+    width: 60px;
+    outline: none;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: tan;
+  }
+  
+  button.current {
+    box-shadow: 0 0 0 2px white,
+                0 0 0 4px black;
+  }
+
+.btn {
+  font-size: 12px;
+  width: 100px;
+}
+.block_name_and_sending_button{
+  display: none;
+  margin-left: 10px;
+}
+
+.btn-success{
+  margin-left: 0px;
+  margin-top: 15px;
+}
